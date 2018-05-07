@@ -15,8 +15,8 @@ img.navbar__logo{
  	height: 70vh;
  	background-size: cover;
  	background-repeat: no-repeat;
- 	opacity: 0.5;
 }
-.header_fundacion img{
-	opacity: 0.5;
+.header_fundacion{
+	padding-top: 22vh;
+	text-align: center;
 }
