@@ -1,0 +1,10 @@
+.header_fundacion{
+	background-image: url(../images/banner.jpg);
+ 	height: 70vh;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	opacity: 0.5;
+}
+.header_fundacion img{
+	opacity: 0.5;
+}
