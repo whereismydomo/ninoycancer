@@ -1,3 +1,15 @@
+img.navbar__logo{
+	display: block;
+	width: 12vh;
+	margin-left: 10vh;
+}
+.navbar-right{
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand, .navbar-nav>li>a{
+	margin-right: 6vh;
+	color: #343499;
+}
 .header_fundacion{
 	background-image: url(../images/banner.jpg);
  	height: 70vh;
