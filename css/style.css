@@ -1,22 +1,140 @@
+/* INDEX */
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
 img.navbar__logo{
 	display: block;
 	width: 12vh;
 	margin-left: 10vh;
 }
+.navbar_fundacion {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0px;
+    height: 10vh;
+    z-index: 99999;
+    border-bottom: 1px solid #dddddd;
+}
 .navbar-right{
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 1vh;
 }
 .navbar-brand, .navbar-nav>li>a{
 	margin-right: 6vh;
 	color: #343499;
 }
 .header_fundacion{
-	background-image: url(../images/banner.jpg);
+	background-image: url('../images/banner.jpg');
  	height: 70vh;
  	background-size: cover;
  	background-repeat: no-repeat;
 }
 .header_fundacion{
-	padding-top: 22vh;
+ 	text-align: center;
+	padding: 150px 0px;
+}
+a.btn.button_fundacion {
+    background-color: #343499;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.60rem;
+}
+.header_fundacion h1{
+	font-family: 'Itim', sans-serif;
+	color: #343499;
+    font-size: 5rem;
+}
+.thumbnails_fundacion{
+	padding-top: 5vh;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+}
+.thumbnails_fundacion h3{
+	color: #343499;
+	margin-bottom: 3vh;
+}
+.thumbnails_fundacion p{
+	color: #585858;
+}
+
+
+/* FOOTER */
+.footer_fundacion{
+	background-color: #F6F6F6;
+	padding: 2rem;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__fundacion-contacto h3 {
+    text-align: center;
+    color: #343499;
+}
+.footer__fundacion-rrss{
+	text-align: center;
+}
+.footer__fundacion-rrss{
+	font-size: 3em;
+}
+.footer__fundacion-rrss a{
+	color: #343499;
+    text-decoration: none;
+}
+.footer__fundacion-rrss p {
+    font-size: .34em;
+    font-family: 'Open Sans', sans-serif;
+    color: #585858;
+}
+
+/* NOSOTROS */
+.jumbotron {
+    padding-top: 18vh;
+    padding-bottom: 48px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+.fundacion__nosotros h2{
+	color: #343499; 
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* BLOG */
+.fundacion__noticias{
+	padding-top: 11vh;
+	font-family: 'Open Sans', sans-serif;
+}
+.fundacion__noticias h3{
+	text-align: center;
+    color: #343499;
+}
+.fundacion__noticias--fecha li {
+	display: inline-block;
+ 	padding: 1vh 2vw 1vh 0vw;
+}
+ol, ul{
+	margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+a.fundacion__noticias-enlaces {
+	color: #343499; 
+	margin-bottom: 10px;
+     display: block;
+ }
+ ul.fundacion__noticias--fecha {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 4vh;
+}
+.fundacion__noticias--imagen{
+	margin: 0 auto;
+}
+.fundacion__noticias--right{
+	display: table-row;
+}
+div#fundacion-right{
+	display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #000;
+    float: none
 }
