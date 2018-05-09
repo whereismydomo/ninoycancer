@@ -31,6 +31,7 @@ img.navbar__logo{
  	height: 70vh;
  	background-size: cover;
  	background-repeat: no-repeat;
+    background-position: center;
 }
 .header_fundacion{
  	text-align: center;
@@ -210,7 +211,8 @@ button.btn.btn-search {
  	background-color: #343499;
  }
 
- @media (max-width: 475px) {
+/* Media queries */
+@media (max-width: 475px) {
     .header_fundacion h1{
         font-family: 'Itim', sans-serif;
         color: #343499;
@@ -222,4 +224,9 @@ button.btn.btn-search {
     padding-top: 10px;
     padding-bottom: 15px;
     }
+.navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    }   
 }
