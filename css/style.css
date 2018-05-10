@@ -210,6 +210,9 @@ button.btn.btn-search {
     border-radius: 1px;
  	background-color: #343499;
  }
+p.fundacion__noticias-left-italic{
+    font-style: italic;
+ }
 
 /* Media queries */
 @media (max-width: 475px) {
@@ -217,6 +220,9 @@ button.btn.btn-search {
         font-family: 'Itim', sans-serif;
         color: #343499;
         font-size: 3rem;
+    }
+    .navbar-right{
+        border-bottom: 1px solid #dddddd;
     }
 }
 @media (min-width: 768px){
